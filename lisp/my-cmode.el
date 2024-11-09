@@ -241,9 +241,6 @@
 
 
 
-;; GNU global (gtag)
-(when (locate-library "gtags") (require 'gtags))
-
 
 
 ;;c-modeの各種定数について..
