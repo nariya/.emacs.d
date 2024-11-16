@@ -214,7 +214,7 @@
 
 ;; ; use my sub library
 ;; (load "my-comment")
-;; (load "my-copy")
+(load "my-copy")
 ;; ;(load "my-ruby")
 ;; (load "my-cmode")
 ;; (load "php-mode")
@@ -247,12 +247,12 @@
 ;; (defvar face-file-edited-last-week 'face-file-edited-last-week)
 
 
-;; (require 'yaml-mode)
-;; (add-to-list 'auto-mode-alist '("\\.yaml$" . yaml-mode))
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.yaml$" . yaml-mode))
 
 
   
-;; (show-paren-mode t)
+(show-paren-mode t)
 ;; ;
 ;; (set-locale-environment nil)
 
